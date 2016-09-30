@@ -14,22 +14,25 @@ target 'SeeItLiveThailand' do
     pod 'Fabric'
     pod 'Crashlytics'
     # pod 'RappleProgressHUD'
-    pod 'PullToRefreshSwift'
-
+    # pod 'PullToRefreshSwift'
+    
     pod 'SVPullToRefresh'
     # pod 'MBProgressHUD', '~> 1.0.0'
-
+    
     pod 'SVProgressHUD'
     # pod 'FontAwesome.swift', '~> 0.11.1'
 
-
     pod 'Harpy'
+    
+    #TabBar
+    pod 'LCTabBarController'
+    
     #Streaming
     # pod 'VideoCore'
     # pod 'VideoCore', '~> 0.2.0'
 
 
-    ######### pod 'IJKPlayerLib'
+    # pod 'IJKPlayerLib'
 
 
     # target 'SeeItLiveThailandTests' do

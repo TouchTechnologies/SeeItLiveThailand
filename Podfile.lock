@@ -4,8 +4,8 @@ PODS:
     - Fabric (~> 1.6.3)
   - Fabric (1.6.8)
   - Harpy (4.0.5)
+  - LCTabBarController (1.3.3)
   - Nuke (4.0)
-  - PullToRefreshSwift (3.0.0)
   - ReachabilitySwift (3)
   - SVProgressHUD (2.0.3)
   - SVPullToRefresh (0.4.1)
@@ -16,8 +16,8 @@ DEPENDENCIES:
   - Crashlytics
   - Fabric
   - Harpy
+  - LCTabBarController
   - Nuke (~> 4.0)
-  - PullToRefreshSwift
   - ReachabilitySwift (~> 3.0)
   - SVProgressHUD
   - SVPullToRefresh
@@ -28,13 +28,11 @@ SPEC CHECKSUMS:
   Crashlytics: 27acca95a01b042a8294291dd6dff27f8f6af6d7
   Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
   Harpy: 7fa1b794fe274781ee0b94106ba1787bcefd7c04
+  LCTabBarController: 9d611fdf2e8e6e78d2322c9b3d8d701a9397b87b
   Nuke: c738cc70c96febfbc974809c1eb8b3d600b09a6b
-  PullToRefreshSwift: 1ccb1fd6d56b6d67d965752ffae1f0bde62c7a35
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
   SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
 
-PODFILE CHECKSUM: d848e0f907528bccac6242cf9b02208933be519a
-
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 0.38.2
