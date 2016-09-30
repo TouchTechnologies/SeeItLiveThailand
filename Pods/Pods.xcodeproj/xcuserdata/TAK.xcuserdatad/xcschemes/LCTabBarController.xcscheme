@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2CA3C7F3BCC169E44BEE51A4F096BA98'
-               BlueprintName = 'PullToRefreshSwift'
+               BlueprintIdentifier = '242D5A2A41A8F5351CD8C66D786E0466'
+               BlueprintName = 'LCTabBarController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'PullToRefreshSwift.framework'>
+               BuildableName = 'LCTabBarController.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

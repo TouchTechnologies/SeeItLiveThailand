@@ -23,8 +23,8 @@ target 'SeeItLiveThailand' do
     # pod 'FontAwesome.swift', '~> 0.11.1'
 
     pod 'Harpy'
-    
-    
+#    pod 'FontAwesome.swift'
+
     #TabBar
     pod 'LCTabBarController'
     

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="i6M-y8-DyC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U0s-uR-kiy">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -15,7 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -37,7 +37,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nRd-Tu-vFJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tol-Kj-slG">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -63,6 +63,238 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SDN-4p-GI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-180" y="-188"/>
+        </scene>
+        <!--Live Feed-->
+        <scene sceneID="l2K-s5-pq8">
+            <objects>
+                <viewController storyboardIdentifier="LiveFeed" title="Live Feed" id="KoL-3n-xHY" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RhV-kh-sfY"/>
+                        <viewControllerLayoutGuide type="bottom" id="HMv-Ue-cTg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YQ8-YI-yrc">
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Live Feed" id="e3W-XN-KeB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3JA-HD-qE9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="616.875" y="2119.0140845070423"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3gs-Wt-4mr">
+            <objects>
+                <viewController id="6BF-NU-6Zw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bgv-7b-K43"/>
+                        <viewControllerLayoutGuide type="bottom" id="KNN-vP-3lt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gkC-vf-Xm2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="R05-yc-GYU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c6E-Yp-nKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46.875" y="2815.1408450704225"/>
+        </scene>
+        <!--Main Tabbar-->
+        <scene sceneID="fod-wL-gME">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="U0s-uR-kiy" customClass="MainTabbar" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="b6E-Nr-qSd">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.051320949970000002" blue="0.060466096990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.9036902174" green="0.96829052400000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VBm-OD-mQZ" kind="relationship" relationship="viewControllers" id="5qI-d5-VTJ"/>
+                        <segue destination="Gnf-UE-Qeg" kind="relationship" relationship="viewControllers" id="DXI-Ur-gkW"/>
+                        <segue destination="T38-X2-Bdr" kind="relationship" relationship="viewControllers" id="jgS-Hx-3Qk"/>
+                        <segue destination="Dl1-mQ-uMV" kind="relationship" relationship="viewControllers" id="bkg-qM-je8"/>
+                        <segue destination="2X7-sA-0Td" kind="relationship" relationship="viewControllers" id="CyY-7N-Q4V"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oZT-wv-O1n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6478" y="1266"/>
+        </scene>
+        <!--Mobile Live-->
+        <scene sceneID="WqC-1d-UWZ">
+            <objects>
+                <viewController storyboardIdentifier="MobileLive" title="Mobile Live" id="1tS-T6-a8Y" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b0k-BI-rVh"/>
+                        <viewControllerLayoutGuide type="bottom" id="C3d-B8-Rxj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="noZ-Qv-TaG">
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mobile Live" id="rM1-5q-M5l"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YaZ-qQ-GcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2186" y="2119"/>
+        </scene>
+        <!--CCTV-->
+        <scene sceneID="GGc-wi-xYL">
+            <objects>
+                <viewController storyboardIdentifier="CCTV" title="CCTV" id="iCq-9Z-PzA" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VDy-kC-Ss7"/>
+                        <viewControllerLayoutGuide type="bottom" id="7oM-QN-Hxb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pfJ-KT-ZSm">
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CCTV" id="uPG-io-vud"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfm-Ga-JSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3794" y="2118"/>
+        </scene>
+        <!--Live Feed-->
+        <scene sceneID="H7e-0F-3Qf">
+            <objects>
+                <navigationController storyboardIdentifier="nvLiveFeed" automaticallyAdjustsScrollViewInsets="NO" id="VBm-OD-mQZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="1" title="Live Feed" badgeValue="8" id="8tW-QQ-BJX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="8dl-xc-NYK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KoL-3n-xHY" kind="relationship" relationship="rootViewController" id="Id9-kr-oXQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Neo-Fw-GTl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46.875" y="2119.0140845070423"/>
+        </scene>
+        <!--Mobile Live-->
+        <scene sceneID="f0p-2w-3ug">
+            <objects>
+                <navigationController storyboardIdentifier="nvMobileLive" automaticallyAdjustsScrollViewInsets="NO" id="Gnf-UE-Qeg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="2" title="Mobile Live" badgeValue="2" id="ZV2-E6-L4M"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="pwH-SO-XAP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1tS-T6-a8Y" kind="relationship" relationship="rootViewController" id="1iN-pq-uX2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N3X-Ep-zac" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1495" y="2119"/>
+        </scene>
+        <!--CCTV-->
+        <scene sceneID="hTd-yu-GsY">
+            <objects>
+                <navigationController storyboardIdentifier="nvCCTV" automaticallyAdjustsScrollViewInsets="NO" id="T38-X2-Bdr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="3" title="CCTV" id="3GS-yK-cX3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="YVR-a6-K0i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iCq-9Z-PzA" kind="relationship" relationship="rootViewController" id="f6y-G8-gqu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfw-Ew-jrW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3116" y="2118"/>
+        </scene>
+        <!--Near By-->
+        <scene sceneID="KYG-ge-Lqh">
+            <objects>
+                <viewController storyboardIdentifier="NearBy" title="Near By" id="3XZ-EH-DtH" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dY0-aE-OaV"/>
+                        <viewControllerLayoutGuide type="bottom" id="MTc-36-P3P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TWd-2G-cmO">
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Near By" id="ciP-Py-m1g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qMP-TD-QXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5401" y="2119"/>
+        </scene>
+        <!--Near By-->
+        <scene sceneID="PPm-0h-gmF">
+            <objects>
+                <navigationController storyboardIdentifier="nvNearBy" automaticallyAdjustsScrollViewInsets="NO" id="Dl1-mQ-uMV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="4" title="Near By" id="WeC-8E-BVL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="bYY-p6-z88">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3XZ-EH-DtH" kind="relationship" relationship="rootViewController" id="ldf-hO-FdG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYA-TG-C5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4724" y="2119"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="Cow-Qf-0Hz">
+            <objects>
+                <viewController storyboardIdentifier="More" title="More" id="NKE-Cx-KLj" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wVT-lg-6qX"/>
+                        <viewControllerLayoutGuide type="bottom" id="sxH-iK-qYV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rxZ-os-Wb0">
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="More" id="5bb-ov-Ygn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GQw-W9-O3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7090" y="2119"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="I6W-EK-zi7">
+            <objects>
+                <navigationController storyboardIdentifier="nvMore" automaticallyAdjustsScrollViewInsets="NO" id="2X7-sA-0Td" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="5" title="More" id="tQQ-pp-44I"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="EqC-Mt-B7J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NKE-Cx-KLj" kind="relationship" relationship="rootViewController" id="g9y-6j-SJV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4e-uJ-e44" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6414" y="2119"/>
         </scene>
     </scenes>
 </document>

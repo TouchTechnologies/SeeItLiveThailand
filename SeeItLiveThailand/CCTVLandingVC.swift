@@ -7,12 +7,12 @@
 //
 
 import UIKit
-import LCTabBarController
+//import LCTabBarController
 
 
-class CCTVLandingViewController: UIViewController {
+class CCTVLandingVC: UIViewController {
     
-    var tabBar = LCTabBarController()
+    var tabBar = UITabBarController()
     var mostViewVC = CCTVMostviewViewController()
     override func viewDidLoad() {
         super.viewDidLoad()

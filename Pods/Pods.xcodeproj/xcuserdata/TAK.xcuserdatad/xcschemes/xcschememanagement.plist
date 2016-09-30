@@ -14,17 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LCTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Nuke.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-SeeItLiveThailand.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>PullToRefreshSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -51,6 +51,52 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>16C777F9F74D9965BF0493D90D7BE675</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>242D5A2A41A8F5351CD8C66D786E0466</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C0EFE4C70F14F2499A54E0AD52233D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40564D9C3681E587DCB3BBE7C6AA5E76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>791386B2D059E3559ECCAC3E27729A8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F70E1B7AAAB4917EDCD9023731C2413</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82CF2D90F51EE8067A30C6531EDAF598</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D658B95E55D8A89AA2D4CD52C2566999</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
