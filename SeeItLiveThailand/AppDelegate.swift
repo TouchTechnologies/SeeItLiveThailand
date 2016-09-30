@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate{
 
@@ -16,6 +17,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+//        let tabBar = LCTabBarController()
+//        let mostViewVC = CCTVMostviewViewController()
+//        mostViewVC.view.backgroundColor = UIColor.red
+//        mostViewVC.tabBarItem.badgeColor = UIColor.green
+//        mostViewVC.title = "Most View"
+//        
+//        let VC2 = UIViewController()
+//        VC2.view.backgroundColor = UIColor.red
+//        VC2.tabBarItem.badgeColor = UIColor.green
+//        VC2.title = "View 2"
+//        
+//        
+//        
+//        tabBar.viewControllers = [mostViewVC,VC2]
+//        self.window!.rootViewController = tabBar
+//        
+        
+        
         // Override point for customization after application launch.
         return true
     }

@@ -16,6 +16,8 @@
 		3B512EF71D9A2C9900A859BD /* SeeItLiveThailandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B512EF61D9A2C9900A859BD /* SeeItLiveThailandTests.swift */; };
 		3B512F021D9A2C9900A859BD /* SeeItLiveThailandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B512F011D9A2C9900A859BD /* SeeItLiveThailandUITests.swift */; };
 		4D70DB591C1C8294A764CB2B /* Pods_SeeItLiveThailand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F72B665C0E2D465A6091FC1 /* Pods_SeeItLiveThailand.framework */; };
+		F3D6FB7F1D9E575B0001D9D1 /* CCTVLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D6FB7E1D9E575B0001D9D1 /* CCTVLandingViewController.swift */; };
+		F3D6FB821D9E5DEF0001D9D1 /* CCTVMostviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D6FB811D9E5DEF0001D9D1 /* CCTVMostviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		52409ED5D908FF202F410B93 /* Pods_SeeItLiveThailandUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeItLiveThailandUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CD2E27FE72638490780D46 /* Pods-SeeItLiveThailand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeItLiveThailand.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeItLiveThailand/Pods-SeeItLiveThailand.debug.xcconfig"; sourceTree = "<group>"; };
 		A5929F468DA9E276976B02FF /* Pods-SeeItLiveThailand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeItLiveThailand.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeItLiveThailand/Pods-SeeItLiveThailand.release.xcconfig"; sourceTree = "<group>"; };
+		F3D6FB7E1D9E575B0001D9D1 /* CCTVLandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCTVLandingViewController.swift; sourceTree = "<group>"; };
+		F3D6FB801D9E5B240001D9D1 /* SeeItLive_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeeItLive_Bridging_Header.h; sourceTree = "<group>"; };
+		F3D6FB811D9E5DEF0001D9D1 /* CCTVMostviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCTVMostviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				3B512EEA1D9A2C9900A859BD /* LaunchScreen.storyboard */,
 				3B512EED1D9A2C9900A859BD /* Info.plist */,
 				3B512EE51D9A2C9800A859BD /* SeeItLiveThailand.xcdatamodeld */,
+				F3D6FB7E1D9E575B0001D9D1 /* CCTVLandingViewController.swift */,
+				F3D6FB801D9E5B240001D9D1 /* SeeItLive_Bridging_Header.h */,
+				F3D6FB811D9E5DEF0001D9D1 /* CCTVMostviewViewController.swift */,
 			);
 			path = SeeItLiveThailand;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 					3B512EDA1D9A2C9800A859BD = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 28WCARLR9T;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					3B512EF11D9A2C9900A859BD = {
@@ -346,7 +355,9 @@
 			files = (
 				3B512EE11D9A2C9800A859BD /* ViewController.swift in Sources */,
 				3B512EE71D9A2C9800A859BD /* SeeItLiveThailand.xcdatamodeld in Sources */,
+				F3D6FB7F1D9E575B0001D9D1 /* CCTVLandingViewController.swift in Sources */,
 				3B512EDF1D9A2C9800A859BD /* AppDelegate.swift in Sources */,
+				F3D6FB821D9E5DEF0001D9D1 /* CCTVMostviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,11 +510,13 @@
 			baseConfigurationReference = 78CD2E27FE72638490780D46 /* Pods-SeeItLiveThailand.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 28WCARLR9T;
 				INFOPLIST_FILE = SeeItLiveThailand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Touchtechnologies.SeeItLiveThailand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -513,6 +526,7 @@
 			baseConfigurationReference = A5929F468DA9E276976B02FF /* Pods-SeeItLiveThailand.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 28WCARLR9T;
 				INFOPLIST_FILE = SeeItLiveThailand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
