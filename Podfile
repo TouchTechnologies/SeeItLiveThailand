@@ -24,6 +24,7 @@ target 'SeeItLiveThailand' do
 
     pod 'Harpy'
     
+    
     #TabBar
     pod 'LCTabBarController'
     
