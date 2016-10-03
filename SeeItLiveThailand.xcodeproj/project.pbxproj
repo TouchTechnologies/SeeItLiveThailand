@@ -21,6 +21,7 @@
 		3B671B831DA211C100265D4D /* NearBy_Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B821DA211C100265D4D /* NearBy_Landing.swift */; };
 		3B671B851DA211D400265D4D /* More_Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B841DA211D400265D4D /* More_Landing.swift */; };
 		3B671B881DA211F600265D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B871DA211F600265D4D /* ViewController.swift */; };
+		3B671BC71DA253B400265D4D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B671BC61DA253B400265D4D /* SnapKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		3BC2D0051D9E778700968AB0 /* MainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2D0041D9E778700968AB0 /* MainTabbar.swift */; };
 		3BC2D00E1D9E7E8F00968AB0 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2D0091D9E7E8F00968AB0 /* Enum.swift */; };
 		3BC2D00F1D9E7E9000968AB0 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3BC2D00B1D9E7E8F00968AB0 /* FontAwesome.otf */; };
@@ -71,6 +72,7 @@
 		3B671B821DA211C100265D4D /* NearBy_Landing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearBy_Landing.swift; path = ViewController/NearBy/NearBy_Landing.swift; sourceTree = "<group>"; };
 		3B671B841DA211D400265D4D /* More_Landing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = More_Landing.swift; path = ViewController/More/More_Landing.swift; sourceTree = "<group>"; };
 		3B671B871DA211F600265D4D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController/Other/ViewController.swift; sourceTree = "<group>"; };
+		3B671BC61DA253B400265D4D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../../../Library/Developer/Xcode-8/DerivedData/SeeItLiveThailand-fumonbhuzkjygxexdygbcfhryrfg/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
 		3BC2D0041D9E778700968AB0 /* MainTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabbar.swift; path = OtherClasses/MainTabbar.swift; sourceTree = SOURCE_ROOT; };
 		3BC2D0091D9E7E8F00968AB0 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		3BC2D00A1D9E7E8F00968AB0 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B671BC71DA253B400265D4D /* SnapKit.framework in Frameworks */,
 				3B671B751DA20D9300265D4D /* LCTabBarController.framework in Frameworks */,
 				505E654BCF79BF846CB47776 /* Pods_SeeItLiveThailand.framework in Frameworks */,
 			);
@@ -114,6 +117,7 @@
 		02C009E526C9A4DFC5421DA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B671BC61DA253B400265D4D /* SnapKit.framework */,
 				3B671B741DA20D9300265D4D /* LCTabBarController.framework */,
 				3B671B711DA20C1A00265D4D /* LCTabBarController.framework */,
 				889D42F491F1578077B52CE2 /* Pods_SeeItLiveThailand.framework */,
