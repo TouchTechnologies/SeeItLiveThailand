@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3B512EDF1D9A2C9800A859BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B512EDE1D9A2C9800A859BD /* AppDelegate.swift */; };
-		3B512EE11D9A2C9800A859BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B512EE01D9A2C9800A859BD /* ViewController.swift */; };
 		3B512EE41D9A2C9800A859BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B512EE21D9A2C9800A859BD /* Main.storyboard */; };
 		3B512EE71D9A2C9800A859BD /* SeeItLiveThailand.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B512EE51D9A2C9800A859BD /* SeeItLiveThailand.xcdatamodeld */; };
 		3B512EE91D9A2C9900A859BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B512EE81D9A2C9900A859BD /* Assets.xcassets */; };
 		3B512EEC1D9A2C9900A859BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B512EEA1D9A2C9900A859BD /* LaunchScreen.storyboard */; };
 		3B512EF71D9A2C9900A859BD /* SeeItLiveThailandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B512EF61D9A2C9900A859BD /* SeeItLiveThailandTests.swift */; };
 		3B512F021D9A2C9900A859BD /* SeeItLiveThailandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B512F011D9A2C9900A859BD /* SeeItLiveThailandUITests.swift */; };
+		3B671B751DA20D9300265D4D /* LCTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B671B741DA20D9300265D4D /* LCTabBarController.framework */; };
+		3B671B7D1DA2113400265D4D /* MobileLive_Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B7C1DA2113400265D4D /* MobileLive_Landing.swift */; };
+		3B671B7F1DA2119800265D4D /* LiveFeed_Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B7E1DA2119800265D4D /* LiveFeed_Landing.swift */; };
+		3B671B811DA211AE00265D4D /* CCTV_Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B801DA211AE00265D4D /* CCTV_Landing.swift */; };
+		3B671B831DA211C100265D4D /* NearBy_Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B821DA211C100265D4D /* NearBy_Landing.swift */; };
+		3B671B851DA211D400265D4D /* More_Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B841DA211D400265D4D /* More_Landing.swift */; };
+		3B671B881DA211F600265D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B671B871DA211F600265D4D /* ViewController.swift */; };
 		3BC2D0051D9E778700968AB0 /* MainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2D0041D9E778700968AB0 /* MainTabbar.swift */; };
 		3BC2D00E1D9E7E8F00968AB0 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2D0091D9E7E8F00968AB0 /* Enum.swift */; };
 		3BC2D00F1D9E7E9000968AB0 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3BC2D00B1D9E7E8F00968AB0 /* FontAwesome.otf */; };
@@ -46,7 +52,6 @@
 		3847B8F650F79B4AB105E6F2 /* Pods-SeeItLiveThailand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeItLiveThailand.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeItLiveThailand/Pods-SeeItLiveThailand.release.xcconfig"; sourceTree = "<group>"; };
 		3B512EDB1D9A2C9800A859BD /* SeeItLiveThailand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeItLiveThailand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B512EDE1D9A2C9800A859BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B512EE01D9A2C9800A859BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B512EE31D9A2C9800A859BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B512EE61D9A2C9800A859BD /* SeeItLiveThailand.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeeItLiveThailand.xcdatamodel; sourceTree = "<group>"; };
 		3B512EE81D9A2C9900A859BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +63,14 @@
 		3B512EFD1D9A2C9900A859BD /* SeeItLiveThailandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeItLiveThailandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B512F011D9A2C9900A859BD /* SeeItLiveThailandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeItLiveThailandUITests.swift; sourceTree = "<group>"; };
 		3B512F031D9A2C9900A859BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B671B711DA20C1A00265D4D /* LCTabBarController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LCTabBarController.framework; path = "Pods/../build/Release-iphoneos/LCTabBarController/LCTabBarController.framework"; sourceTree = "<group>"; };
+		3B671B741DA20D9300265D4D /* LCTabBarController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LCTabBarController.framework; path = "../../../../Library/Developer/Xcode-8/DerivedData/SeeItLiveThailand-fumonbhuzkjygxexdygbcfhryrfg/Build/Products/Debug-iphonesimulator/LCTabBarController/LCTabBarController.framework"; sourceTree = "<group>"; };
+		3B671B7C1DA2113400265D4D /* MobileLive_Landing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MobileLive_Landing.swift; path = ViewController/MobileLive/MobileLive_Landing.swift; sourceTree = "<group>"; };
+		3B671B7E1DA2119800265D4D /* LiveFeed_Landing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveFeed_Landing.swift; path = ViewController/LiveFeed/LiveFeed_Landing.swift; sourceTree = "<group>"; };
+		3B671B801DA211AE00265D4D /* CCTV_Landing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CCTV_Landing.swift; path = ViewController/CCTV/CCTV_Landing.swift; sourceTree = "<group>"; };
+		3B671B821DA211C100265D4D /* NearBy_Landing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearBy_Landing.swift; path = ViewController/NearBy/NearBy_Landing.swift; sourceTree = "<group>"; };
+		3B671B841DA211D400265D4D /* More_Landing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = More_Landing.swift; path = ViewController/More/More_Landing.swift; sourceTree = "<group>"; };
+		3B671B871DA211F600265D4D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController/Other/ViewController.swift; sourceTree = "<group>"; };
 		3BC2D0041D9E778700968AB0 /* MainTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabbar.swift; path = OtherClasses/MainTabbar.swift; sourceTree = SOURCE_ROOT; };
 		3BC2D0091D9E7E8F00968AB0 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		3BC2D00A1D9E7E8F00968AB0 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
@@ -76,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B671B751DA20D9300265D4D /* LCTabBarController.framework in Frameworks */,
 				505E654BCF79BF846CB47776 /* Pods_SeeItLiveThailand.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +114,8 @@
 		02C009E526C9A4DFC5421DA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B671B741DA20D9300265D4D /* LCTabBarController.framework */,
+				3B671B711DA20C1A00265D4D /* LCTabBarController.framework */,
 				889D42F491F1578077B52CE2 /* Pods_SeeItLiveThailand.framework */,
 			);
 			name = Frameworks;
@@ -164,6 +180,54 @@
 			path = SeeItLiveThailandUITests;
 			sourceTree = "<group>";
 		};
+		3B671B731DA20C4B00265D4D /* CCTV */ = {
+			isa = PBXGroup;
+			children = (
+				3B671B801DA211AE00265D4D /* CCTV_Landing.swift */,
+			);
+			name = CCTV;
+			sourceTree = "<group>";
+		};
+		3B671B761DA2106700265D4D /* LiveFeed */ = {
+			isa = PBXGroup;
+			children = (
+				3B671B7E1DA2119800265D4D /* LiveFeed_Landing.swift */,
+			);
+			name = LiveFeed;
+			sourceTree = "<group>";
+		};
+		3B671B771DA2107400265D4D /* MobileLive */ = {
+			isa = PBXGroup;
+			children = (
+				3B671B7C1DA2113400265D4D /* MobileLive_Landing.swift */,
+			);
+			name = MobileLive;
+			sourceTree = "<group>";
+		};
+		3B671B781DA2108000265D4D /* NearBy */ = {
+			isa = PBXGroup;
+			children = (
+				3B671B821DA211C100265D4D /* NearBy_Landing.swift */,
+			);
+			name = NearBy;
+			sourceTree = "<group>";
+		};
+		3B671B791DA2108900265D4D /* More */ = {
+			isa = PBXGroup;
+			children = (
+				3B671B841DA211D400265D4D /* More_Landing.swift */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		3B671B861DA211E400265D4D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3B671B871DA211F600265D4D /* ViewController.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		3BC2D0021D9E74CB00968AB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +239,12 @@
 		3BC2D0031D9E74D400968AB0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3B512EE01D9A2C9800A859BD /* ViewController.swift */,
+				3B671B761DA2106700265D4D /* LiveFeed */,
+				3B671B771DA2107400265D4D /* MobileLive */,
+				3B671B731DA20C4B00265D4D /* CCTV */,
+				3B671B781DA2108000265D4D /* NearBy */,
+				3B671B791DA2108900265D4D /* More */,
+				3B671B861DA211E400265D4D /* Other */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -391,13 +460,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B512EE11D9A2C9800A859BD /* ViewController.swift in Sources */,
+				3B671B7D1DA2113400265D4D /* MobileLive_Landing.swift in Sources */,
 				3B512EE71D9A2C9800A859BD /* SeeItLiveThailand.xcdatamodeld in Sources */,
 				F3D6FB7F1D9E575B0001D9D1 /* CCTVLandingVC.swift in Sources */,
+				3B671B831DA211C100265D4D /* NearBy_Landing.swift in Sources */,
+				3B671B881DA211F600265D4D /* ViewController.swift in Sources */,
 				3B512EDF1D9A2C9800A859BD /* AppDelegate.swift in Sources */,
+				3B671B851DA211D400265D4D /* More_Landing.swift in Sources */,
 				3BC2D0101D9E7E9000968AB0 /* FontAwesome.swift in Sources */,
 				3BC2D0111D9E7E9000968AB0 /* FontAwesomeView.swift in Sources */,
 				3BC2D00E1D9E7E8F00968AB0 /* Enum.swift in Sources */,
+				3B671B7F1DA2119800265D4D /* LiveFeed_Landing.swift in Sources */,
+				3B671B811DA211AE00265D4D /* CCTV_Landing.swift in Sources */,
 				F3D6FB821D9E5DEF0001D9D1 /* CCTVMostviewViewController.swift in Sources */,
 				3BC2D0051D9E778700968AB0 /* MainTabbar.swift in Sources */,
 			);
@@ -554,6 +628,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 28WCARLR9T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/LCTabBarController",
+				);
 				INFOPLIST_FILE = SeeItLiveThailand/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -571,6 +649,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 28WCARLR9T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/LCTabBarController",
+				);
 				INFOPLIST_FILE = SeeItLiveThailand/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

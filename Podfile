@@ -20,13 +20,12 @@ target 'SeeItLiveThailand' do
     # pod 'MBProgressHUD', '~> 1.0.0'
     
     pod 'SVProgressHUD'
-    # pod 'FontAwesome.swift', '~> 0.11.1'
 
     pod 'Harpy'
-#    pod 'FontAwesome.swift'
 
-    #TabBar
     pod 'LCTabBarController'
+    pod 'SnapKit', '~> 3.0'
+    
     
     #Streaming
     # pod 'VideoCore'

@@ -7,6 +7,7 @@ PODS:
   - LCTabBarController (1.3.3)
   - Nuke (4.0)
   - ReachabilitySwift (3)
+  - SnapKit (3.0.1)
   - SVProgressHUD (2.0.3)
   - SVPullToRefresh (0.4.1)
   - SwiftyJSON (3.0.0)
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - LCTabBarController
   - Nuke (~> 4.0)
   - ReachabilitySwift (~> 3.0)
+  - SnapKit (~> 3.0)
   - SVProgressHUD
   - SVPullToRefresh
   - SwiftyJSON (~> 3.0)
@@ -31,10 +33,11 @@ SPEC CHECKSUMS:
   LCTabBarController: 9d611fdf2e8e6e78d2322c9b3d8d701a9397b87b
   Nuke: c738cc70c96febfbc974809c1eb8b3d600b09a6b
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SnapKit: f818b8326d45b4e1c777d0ab27b5c0a3624bfdeb
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
   SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
 
-PODFILE CHECKSUM: 310532f4c2f0bad3ebe7494c57f299f656345976
+PODFILE CHECKSUM: 7fae5a9fecd76bcff5a396f0c53231fdc30d9e21
 
 COCOAPODS: 1.1.0.rc.2

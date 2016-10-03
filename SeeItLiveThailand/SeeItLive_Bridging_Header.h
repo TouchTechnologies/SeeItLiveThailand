@@ -10,6 +10,7 @@
 #define SeeItLive_Bridging_Header_h
 
 #import <LCTabBarController/LCTabBar.h>
+#import <LCTabBarController/LCTabBarController.h>
 //#import "FontAwesome.h"
 
 

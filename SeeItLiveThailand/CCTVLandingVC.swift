@@ -17,12 +17,12 @@ class CCTVLandingVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         mostViewVC.view.backgroundColor = UIColor.red
-        mostViewVC.tabBarItem.badgeColor = UIColor.green
+//        mostViewVC.tabBarItem.badgeColor = UIColor.green
         mostViewVC.title = "Most View"
         
         let VC2 = UIViewController()
         VC2.view.backgroundColor = UIColor.red
-        VC2.tabBarItem.badgeColor = UIColor.green
+//        VC2.tabBarItem.badgeColor = UIColor.green
         VC2.title = "View 2"
         
         
