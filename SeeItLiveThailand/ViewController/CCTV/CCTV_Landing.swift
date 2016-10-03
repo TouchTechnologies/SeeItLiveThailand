@@ -13,7 +13,6 @@ class CCTV_Landing: UIViewController, UITableViewDelegate, UITableViewDataSource
     @IBOutlet weak var view_TopSlider: UIView!
     @IBOutlet weak var tb_Lists: UITableView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("CCTV_Landing Loaded")
