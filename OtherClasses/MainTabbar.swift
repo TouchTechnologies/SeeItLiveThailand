@@ -30,7 +30,6 @@ class MainTabbar: LCTabBarController {
         tabVC1.title = "Live Feed"
         tabVC1.tabBarItem.image = UIImage.fontAwesomeIconWithName(.ListAlt, textColor: colorTabIcon, size: sizeTabIcon)
         tabVC1.tabBarItem.selectedImage = UIImage.fontAwesomeIconWithName(.ListAlt, textColor: colorTabIconActive, size: sizeTabIcon)
-        //tabVC1.navigationController?.setNavigationBarHidden(false, animated: false)
         
         
         // TabVC 2 //
