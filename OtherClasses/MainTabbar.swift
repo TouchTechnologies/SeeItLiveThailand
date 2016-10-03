@@ -17,7 +17,6 @@ class MainTabbar: LCTabBarController {
         
         print("LCTabBarController Load")
         
-//        navigationController?.navigationBar.isHidden = false
         
         let sizeTabIcon = CGSize(width: 30, height: 30)
         let colorTabIcon = UIColor.gray
