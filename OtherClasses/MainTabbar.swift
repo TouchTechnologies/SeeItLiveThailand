@@ -67,13 +67,20 @@ class MainTabbar: LCTabBarController {
         tabVC5.tabBarItem.selectedImage = UIImage.fontAwesomeIconWithName(.EllipsisH, textColor: colorTabIconActive, size: sizeTabIcon)
         
         
+        let navC1: UINavigationController = UINavigationController(rootViewController: tabVC1)
+        let navC2: UINavigationController = UINavigationController(rootViewController: tabVC2)
+        let navC3: UINavigationController = UINavigationController(rootViewController: tabVC3)
+        let navC4: UINavigationController = UINavigationController(rootViewController: tabVC4)
+        let navC5: UINavigationController = UINavigationController(rootViewController: tabVC5)
+
         
         self.itemTitleColor = UIColor.gray
         self.selectedItemTitleColor = UIColor.black
         //self.itemImageRatio = 0.5
-//        self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.isNavigationBarHidden = false
         
-        self.viewControllers = [tabVC1,tabVC2,tabVC3,tabVC4,tabVC5]
+        self.viewControllers = [navC1,navC2,navC3,navC4,navC5]
+
         
     }
     

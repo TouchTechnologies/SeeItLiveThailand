@@ -13,6 +13,10 @@ class LiveFeed_Landing: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("LiveFeed_Landing Loaded")
+        
+//        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Change Item" style:UIBarButtonItemStyleDone target:self action:@selector(leftBarButtonItemClicked)];
+//        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Go Message" style:UIBarButtonItemStyleDone target:self action:@selector(rightBarButtonItemClicked)];
+//        
 
         // Do any additional setup after loading the view.
     }
