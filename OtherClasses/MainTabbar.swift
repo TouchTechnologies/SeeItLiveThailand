@@ -17,6 +17,7 @@ class MainTabbar: LCTabBarController {
         
         print("LCTabBarController Load")
         
+//        navigationController?.navigationBar.isHidden = false
         
         let sizeTabIcon = CGSize(width: 30, height: 30)
         let colorTabIcon = UIColor.gray
@@ -29,7 +30,7 @@ class MainTabbar: LCTabBarController {
         tabVC1.title = "Live Feed"
         tabVC1.tabBarItem.image = UIImage.fontAwesomeIconWithName(.ListAlt, textColor: colorTabIcon, size: sizeTabIcon)
         tabVC1.tabBarItem.selectedImage = UIImage.fontAwesomeIconWithName(.ListAlt, textColor: colorTabIconActive, size: sizeTabIcon)
-        
+        //tabVC1.navigationController?.setNavigationBarHidden(false, animated: false)
         
         
         // TabVC 2 //
@@ -72,6 +73,8 @@ class MainTabbar: LCTabBarController {
         self.itemTitleColor = UIColor.gray
         self.selectedItemTitleColor = UIColor.black
         //self.itemImageRatio = 0.5
+//        self.navigationController?.isNavigationBarHidden = false
+        
         self.viewControllers = [tabVC1,tabVC2,tabVC3,tabVC4,tabVC5]
         
     }

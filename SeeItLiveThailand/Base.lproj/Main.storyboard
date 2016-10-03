@@ -50,7 +50,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i6M-y8-DyC" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dmD-Jk-Elg">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dmD-Jk-Elg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -66,7 +66,7 @@
         <!--Live Feed-->
         <scene sceneID="l2K-s5-pq8">
             <objects>
-                <viewController storyboardIdentifier="LiveFeed" title="Live Feed" id="KoL-3n-xHY" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LiveFeed" title="Live Feed" id="KoL-3n-xHY" customClass="LiveFeed_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RhV-kh-sfY"/>
                         <viewControllerLayoutGuide type="bottom" id="HMv-Ue-cTg"/>
@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3JA-HD-qE9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616.875" y="2119.0140845070423"/>
+            <point key="canvasLocation" x="2862" y="313"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3gs-Wt-4mr">
@@ -115,12 +115,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oZT-wv-O1n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6478" y="1266"/>
+            <point key="canvasLocation" x="1319" y="1653"/>
         </scene>
         <!--Mobile Live-->
         <scene sceneID="WqC-1d-UWZ">
             <objects>
-                <viewController storyboardIdentifier="MobileLive" title="Mobile Live" id="1tS-T6-a8Y" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MobileLive" title="Mobile Live" id="1tS-T6-a8Y" customClass="MobileLive_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="b0k-BI-rVh"/>
                         <viewControllerLayoutGuide type="bottom" id="C3d-B8-Rxj"/>
@@ -134,12 +134,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YaZ-qQ-GcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2186" y="2119"/>
+            <point key="canvasLocation" x="2862" y="985"/>
         </scene>
         <!--CCTV-->
         <scene sceneID="GGc-wi-xYL">
             <objects>
-                <viewController storyboardIdentifier="CCTV" title="CCTV" id="iCq-9Z-PzA" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CCTV" title="CCTV" id="iCq-9Z-PzA" customClass="CCTV_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VDy-kC-Ss7"/>
                         <viewControllerLayoutGuide type="bottom" id="7oM-QN-Hxb"/>
@@ -153,15 +153,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfm-Ga-JSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3794" y="2118"/>
+            <point key="canvasLocation" x="2862" y="1653"/>
         </scene>
         <!--Live Feed-->
         <scene sceneID="H7e-0F-3Qf">
             <objects>
                 <navigationController storyboardIdentifier="nvLiveFeed" automaticallyAdjustsScrollViewInsets="NO" id="VBm-OD-mQZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="1" title="Live Feed" badgeValue="8" id="8tW-QQ-BJX"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Live Feed" id="8tW-QQ-BJX"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="8dl-xc-NYK">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="8dl-xc-NYK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -172,7 +172,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Neo-Fw-GTl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-46.875" y="2119.0140845070423"/>
+            <point key="canvasLocation" x="2185" y="314"/>
         </scene>
         <!--Mobile Live-->
         <scene sceneID="f0p-2w-3ug">
@@ -180,7 +180,7 @@
                 <navigationController storyboardIdentifier="nvMobileLive" automaticallyAdjustsScrollViewInsets="NO" id="Gnf-UE-Qeg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="2" title="Mobile Live" badgeValue="2" id="ZV2-E6-L4M"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="pwH-SO-XAP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="pwH-SO-XAP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -191,7 +191,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3X-Ep-zac" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1495" y="2119"/>
+            <point key="canvasLocation" x="2185" y="985"/>
         </scene>
         <!--CCTV-->
         <scene sceneID="hTd-yu-GsY">
@@ -199,7 +199,7 @@
                 <navigationController storyboardIdentifier="nvCCTV" automaticallyAdjustsScrollViewInsets="NO" id="T38-X2-Bdr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="3" title="CCTV" id="3GS-yK-cX3"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="YVR-a6-K0i">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="YVR-a6-K0i">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -210,12 +210,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfw-Ew-jrW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3116" y="2118"/>
+            <point key="canvasLocation" x="2185" y="1653"/>
         </scene>
         <!--Near By-->
         <scene sceneID="KYG-ge-Lqh">
             <objects>
-                <viewController storyboardIdentifier="NearBy" title="Near By" id="3XZ-EH-DtH" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NearBy" title="Near By" id="3XZ-EH-DtH" customClass="NearBy_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dY0-aE-OaV"/>
                         <viewControllerLayoutGuide type="bottom" id="MTc-36-P3P"/>
@@ -229,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qMP-TD-QXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5401" y="2119"/>
+            <point key="canvasLocation" x="2862" y="2319"/>
         </scene>
         <!--Near By-->
         <scene sceneID="PPm-0h-gmF">
@@ -237,7 +237,7 @@
                 <navigationController storyboardIdentifier="nvNearBy" automaticallyAdjustsScrollViewInsets="NO" id="Dl1-mQ-uMV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="4" title="Near By" id="WeC-8E-BVL"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="bYY-p6-z88">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="bYY-p6-z88">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -248,12 +248,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYA-TG-C5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4724" y="2119"/>
+            <point key="canvasLocation" x="2185" y="2320"/>
         </scene>
         <!--More-->
         <scene sceneID="Cow-Qf-0Hz">
             <objects>
-                <viewController storyboardIdentifier="More" title="More" id="NKE-Cx-KLj" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="More" title="More" id="NKE-Cx-KLj" customClass="More_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wVT-lg-6qX"/>
                         <viewControllerLayoutGuide type="bottom" id="sxH-iK-qYV"/>
@@ -267,7 +267,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GQw-W9-O3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7090" y="2119"/>
+            <point key="canvasLocation" x="2862" y="2991"/>
         </scene>
         <!--More-->
         <scene sceneID="I6W-EK-zi7">
@@ -275,7 +275,7 @@
                 <navigationController storyboardIdentifier="nvMore" automaticallyAdjustsScrollViewInsets="NO" id="2X7-sA-0Td" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="5" title="More" id="tQQ-pp-44I"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="EqC-Mt-B7J">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="EqC-Mt-B7J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -286,7 +286,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4e-uJ-e44" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6414" y="2119"/>
+            <point key="canvasLocation" x="2185" y="2991"/>
         </scene>
     </scenes>
 </document>

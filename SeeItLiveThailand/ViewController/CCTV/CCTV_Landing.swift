@@ -12,6 +12,7 @@ class CCTV_Landing: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("CCTV_Landing Loaded")
 
         // Do any additional setup after loading the view.
     }

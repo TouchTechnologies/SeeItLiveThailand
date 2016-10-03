@@ -12,6 +12,7 @@ class LiveFeed_Landing: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("LiveFeed_Landing Loaded")
 
         // Do any additional setup after loading the view.
     }

@@ -12,6 +12,7 @@ class NearBy_Landing: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("NearBy_Landing Loaded")
 
         // Do any additional setup after loading the view.
     }
