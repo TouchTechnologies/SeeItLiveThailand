@@ -73,13 +73,9 @@ class MainTabbar: LCTabBarController {
         let navC4: UINavigationController = UINavigationController(rootViewController: tabVC4)
         let navC5: UINavigationController = UINavigationController(rootViewController: tabVC5)
 
-        
-        self.itemTitleColor = UIColor.gray
-        self.selectedItemTitleColor = UIColor.black
-        //self.itemImageRatio = 0.5
-        self.navigationController?.isNavigationBarHidden = false
-        
+        self.tabBar.barTintColor = UIColor.white
         self.viewControllers = [navC1,navC2,navC3,navC4,navC5]
+//        self.viewControllers = [tabVC1,tabVC1,tabVC1,tabVC1,tabVC5]
 
         
     }

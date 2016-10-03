@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U0s-uR-kiy">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -10,8 +11,8 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="nAO-sd-krd"/>
+                        <viewControllerLayoutGuide type="bottom" id="VeQ-J3-fqb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -32,8 +33,8 @@
             <objects>
                 <viewController id="owi-7X-6h7" customClass="CCTVMostviewViewController" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hdw-ax-NCC"/>
-                        <viewControllerLayoutGuide type="bottom" id="nRd-Tu-vFJ"/>
+                        <viewControllerLayoutGuide type="top" id="djF-He-khQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="h43-X5-7Xd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tol-Kj-slG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -43,14 +44,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Db5-TX-HbR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1376" y="-370"/>
+            <point key="canvasLocation" x="1376" y="-370.00000000000011"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bAV-Sd-ams">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i6M-y8-DyC" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dmD-Jk-Elg">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dmD-Jk-Elg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -68,27 +69,36 @@
             <objects>
                 <viewController storyboardIdentifier="LiveFeed" title="Live Feed" id="KoL-3n-xHY" customClass="LiveFeed_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="RhV-kh-sfY"/>
-                        <viewControllerLayoutGuide type="bottom" id="HMv-Ue-cTg"/>
+                        <viewControllerLayoutGuide type="top" id="YLZ-cl-e5s"/>
+                        <viewControllerLayoutGuide type="bottom" id="dBz-0k-yN1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YQ8-YI-yrc">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxo-ka-F4s">
+                                <frame key="frameInset" minX="136" minY="128" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Live Feed" id="e3W-XN-KeB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3JA-HD-qE9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2862" y="313"/>
+            <point key="canvasLocation" x="2861.6000000000004" y="312.59370314842585"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3gs-Wt-4mr">
             <objects>
                 <viewController id="6BF-NU-6Zw" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bgv-7b-K43"/>
-                        <viewControllerLayoutGuide type="bottom" id="KNN-vP-3lt"/>
+                        <viewControllerLayoutGuide type="top" id="vw2-cP-ik5"/>
+                        <viewControllerLayoutGuide type="bottom" id="oa4-8L-RS7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gkC-vf-Xm2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -112,21 +122,28 @@
                         <color key="tintColor" red="1" green="0.051320949970000002" blue="0.060466096990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.9036902174" green="0.96829052400000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="VBm-OD-mQZ" kind="relationship" relationship="viewControllers" id="e38-W9-3eR"/>
+                        <segue destination="Gnf-UE-Qeg" kind="relationship" relationship="viewControllers" id="7yB-aJ-XpL"/>
+                        <segue destination="T38-X2-Bdr" kind="relationship" relationship="viewControllers" id="8yt-ys-8ag"/>
+                        <segue destination="Dl1-mQ-uMV" kind="relationship" relationship="viewControllers" id="GBn-zr-Mx5"/>
+                        <segue destination="2X7-sA-0Td" kind="relationship" relationship="viewControllers" id="fzZ-rf-6Bp"/>
+                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oZT-wv-O1n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1319" y="1653"/>
+            <point key="canvasLocation" x="1015" y="1653"/>
         </scene>
         <!--Mobile Live-->
         <scene sceneID="WqC-1d-UWZ">
             <objects>
                 <viewController storyboardIdentifier="MobileLive" title="Mobile Live" id="1tS-T6-a8Y" customClass="MobileLive_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="b0k-BI-rVh"/>
-                        <viewControllerLayoutGuide type="bottom" id="C3d-B8-Rxj"/>
+                        <viewControllerLayoutGuide type="top" id="3PS-y2-Vlt"/>
+                        <viewControllerLayoutGuide type="bottom" id="4gE-f2-Rmh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="noZ-Qv-TaG">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -141,21 +158,17 @@
             <objects>
                 <viewController storyboardIdentifier="CCTV" title="CCTV" id="iCq-9Z-PzA" customClass="CCTV_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="VDy-kC-Ss7"/>
-                        <viewControllerLayoutGuide type="bottom" id="7oM-QN-Hxb"/>
+                        <viewControllerLayoutGuide type="top" id="lOz-db-g1O"/>
+                        <viewControllerLayoutGuide type="bottom" id="z7e-ow-FXW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pfJ-KT-ZSm">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fwX-yx-GAR">
-                                <frame key="frameInset" height="128"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fwX-yx-GAR">
                                 <color key="backgroundColor" red="0.1294519958" green="1" blue="0.20297372859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="163" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kbB-u5-B0m">
-                                <frame key="frameInset"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="163" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kbB-u5-B0m">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="163" id="Zz2-e0-GK1">
@@ -165,14 +178,19 @@
                                             <frame key="frameInset" width="375" height="162"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUK-2U-kz9">
-                                                    <frame key="frameInset" minX="50" minY="71" width="173" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUK-2U-kz9">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="173" id="kQd-b8-8vu"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="pUK-2U-kz9" firstAttribute="leading" secondItem="DwA-AW-Xf6" secondAttribute="leadingMargin" constant="42" id="1xO-nz-PGT"/>
+                                                <constraint firstItem="pUK-2U-kz9" firstAttribute="centerY" secondItem="DwA-AW-Xf6" secondAttribute="centerY" id="37F-q3-jZh"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.21126144541584047" green="1" blue="0.21728676835891214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
@@ -184,6 +202,16 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z7e-ow-FXW" firstAttribute="top" secondItem="fwX-yx-GAR" secondAttribute="bottom" constant="475" id="2uT-hY-Hy1"/>
+                            <constraint firstItem="kbB-u5-B0m" firstAttribute="bottom" secondItem="z7e-ow-FXW" secondAttribute="top" id="CdE-Q2-5Sn"/>
+                            <constraint firstAttribute="trailing" secondItem="kbB-u5-B0m" secondAttribute="trailing" id="RQF-yT-Bg6"/>
+                            <constraint firstItem="fwX-yx-GAR" firstAttribute="top" secondItem="lOz-db-g1O" secondAttribute="bottom" id="Tgv-Bd-F3v"/>
+                            <constraint firstItem="kbB-u5-B0m" firstAttribute="leading" secondItem="fwX-yx-GAR" secondAttribute="leading" id="Z58-b0-qsj"/>
+                            <constraint firstItem="fwX-yx-GAR" firstAttribute="top" secondItem="kbB-u5-B0m" secondAttribute="top" id="hZo-2Z-5XS"/>
+                            <constraint firstItem="kbB-u5-B0m" firstAttribute="leading" secondItem="pfJ-KT-ZSm" secondAttribute="leading" id="i1N-g4-k9U"/>
+                            <constraint firstItem="fwX-yx-GAR" firstAttribute="trailing" secondItem="kbB-u5-B0m" secondAttribute="trailing" id="sIo-dl-p2b"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="CCTV" id="uPG-io-vud"/>
                     <connections>
@@ -193,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfm-Ga-JSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2861.5999999999999" y="1652.9235382308848"/>
+            <point key="canvasLocation" x="2861.6000000000004" y="1652.9235382308848"/>
         </scene>
         <!--Live Feed-->
         <scene sceneID="H7e-0F-3Qf">
@@ -201,7 +229,7 @@
                 <navigationController storyboardIdentifier="nvLiveFeed" automaticallyAdjustsScrollViewInsets="NO" id="VBm-OD-mQZ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="1" title="Live Feed" id="8tW-QQ-BJX"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="8dl-xc-NYK">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="8dl-xc-NYK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -212,7 +240,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Neo-Fw-GTl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2185" y="314"/>
+            <point key="canvasLocation" x="2185" y="314.00000000000006"/>
         </scene>
         <!--Mobile Live-->
         <scene sceneID="f0p-2w-3ug">
@@ -220,7 +248,7 @@
                 <navigationController storyboardIdentifier="nvMobileLive" automaticallyAdjustsScrollViewInsets="NO" id="Gnf-UE-Qeg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="2" title="Mobile Live" badgeValue="2" id="ZV2-E6-L4M"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="pwH-SO-XAP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="pwH-SO-XAP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -239,7 +267,7 @@
                 <navigationController storyboardIdentifier="nvCCTV" automaticallyAdjustsScrollViewInsets="NO" id="T38-X2-Bdr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="3" title="CCTV" id="3GS-yK-cX3"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="YVR-a6-K0i">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="YVR-a6-K0i">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -257,11 +285,11 @@
             <objects>
                 <viewController storyboardIdentifier="NearBy" title="Near By" id="3XZ-EH-DtH" customClass="NearBy_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dY0-aE-OaV"/>
-                        <viewControllerLayoutGuide type="bottom" id="MTc-36-P3P"/>
+                        <viewControllerLayoutGuide type="top" id="BAj-EQ-bHz"/>
+                        <viewControllerLayoutGuide type="bottom" id="xAV-CU-3kq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TWd-2G-cmO">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -277,7 +305,7 @@
                 <navigationController storyboardIdentifier="nvNearBy" automaticallyAdjustsScrollViewInsets="NO" id="Dl1-mQ-uMV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="4" title="Near By" id="WeC-8E-BVL"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="bYY-p6-z88">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="bYY-p6-z88">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -295,11 +323,11 @@
             <objects>
                 <viewController storyboardIdentifier="More" title="More" id="NKE-Cx-KLj" customClass="More_Landing" customModule="SeeItLiveThailand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="wVT-lg-6qX"/>
-                        <viewControllerLayoutGuide type="bottom" id="sxH-iK-qYV"/>
+                        <viewControllerLayoutGuide type="top" id="WX4-JH-6oR"/>
+                        <viewControllerLayoutGuide type="bottom" id="wjq-u3-YHe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rxZ-os-Wb0">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -315,7 +343,7 @@
                 <navigationController storyboardIdentifier="nvMore" automaticallyAdjustsScrollViewInsets="NO" id="2X7-sA-0Td" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="5" title="More" id="tQQ-pp-44I"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="EqC-Mt-B7J">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="EqC-Mt-B7J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

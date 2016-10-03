@@ -18,6 +18,7 @@ class CCTV_Landing: UIViewController, UITableViewDelegate, UITableViewDataSource
         super.viewDidLoad()
         print("CCTV_Landing Loaded")
         
+//        self.title = "CCTV"
         
         //tb_Lists.contentOffset.y = view_TopSlider.frame.height
         
@@ -40,8 +41,8 @@ class CCTV_Landing: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as UITableViewCell
+        cell.textLabel?.text = "row : \(indexPath.row)"
         return cell
     }
     

@@ -10,6 +10,10 @@ import UIKit
 
 class LiveFeed_Landing: UIViewController {
 
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("LiveFeed_Landing Loaded")
