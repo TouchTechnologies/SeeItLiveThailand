@@ -191,7 +191,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="163"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zz2-e0-GK1" id="DwA-AW-Xf6">
-                                            <frame key="frameInset" width="375" height="162"/>
+                                            <frame key="frameInset" width="375" height="162.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.21126144541584047" green="1" blue="0.21728676835891214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
